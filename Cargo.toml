@@ -1,0 +1,29 @@
+[package]
+name = "rust-basics"
+version = "0.1.0"
+authors = ["Omar El-Begawy <omar.elbegawy@gmail.com>"]
+
+# need to define files and paths separately to get separate executables
+[[bin]]
+name = "box"
+path = "src/boxes/box.rs"
+
+[[bin]]
+name = "attribute"
+path = "src/attributes/attributes.rs"
+
+[[bin]]
+name = "generic"
+path = "src/generics/generics.rs"
+
+# these do not work yet
+
+#[[bin]]
+#name = "task"
+#path = "src/tasks/tasks.rs"
+
+#[[bin]]
+#name = "trait"
+#path = "src/traits/traits.rs"
+
+[dependencies]
